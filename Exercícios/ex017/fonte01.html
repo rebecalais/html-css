@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        body {
+            font-family: 'Work Sans',Arial, Helvetica, sans-serif; /* escolher a fonte certa, porque nem todos os dispositivos têm, por isso sugere três opções = safe combination*/
+            /* medidas absolutas
+              cm, mm, in (polegada), px, pt, pc (paica);
+            medidas relativas 
+            em (medida relativa ao tamanho atual da fonte), ex (relativo a altura x de uma fonte), rem (relativo a fonte configurada no body), Vw (largura da viewport - tamanho da tela), vh (altura da viewport), %
+            */
+        }
+
+        h1 {
+           
+           /* Shorthand-font
+           - font-style -> font-weight -> font-size -> font-family 
+           font-family: 'Work Sans', sans-serif;
+           font-weight: bolder; 
+           font-size: 3em;
+           font-style: italic;*/
+
+           font: italic bolder 3em 'Work Sans', sans-serif;
+        }
+
+        h2 {
+           font: bold 2em 'Work Sans'; 
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, alias! Excepturi enim commodi aut quisquam error? Ducimus velit reiciendis molestias quibusdam, vitae ex illum amet, a tempore saepe, incidunt perspiciatis? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime eaque, vitae neque veritatis illum, obcaecati facere dolorum aperiam hic cumque molestias, nulla incidunt possimus mollitia minima aspernatur ut! Similique, molestiae.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem maiores reprehenderit iste pariatur perferendis, porro repudiandae molestiae aut, nemo voluptatum ex officiis dicta incidunt suscipit quisquam! Possimus dolores veritatis expedita.</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint eos tempore facilis qui quis officia ipsa, odio quisquam distinctio? Repudiandae iusto libero hic temporibus! Aliquam minus dolorem harum sequi quo. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos numquam sint voluptatibus rem ad reprehenderit optio consequatur ea? Deleniti modi delectus rerum. Eius eligendi ullam delectus, minus quas itaque enim.</p>
+
+</body>
+</html>
